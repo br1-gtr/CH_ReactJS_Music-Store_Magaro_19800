@@ -25,7 +25,7 @@ class NavBar extends React.Component {
                                 <a class="nav-link" href="#">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Carrito</a>
+                                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>Carrito</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contacto</a>
@@ -34,10 +34,7 @@ class NavBar extends React.Component {
                     </div>
                 </div>
                 </nav>
-
-                
-
-            </Fragment>   
+            </Fragment>  
         )
     }    
 }
